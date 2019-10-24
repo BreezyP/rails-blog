@@ -7,13 +7,33 @@
 
 <p>
   <strong>Author:</strong>
-  <%= @post.author %>
+  by <%= @post.user.email %>
 </p>
 
 <p>
   <strong>Blog entry:</strong>
   <%= @post.blog_entry %>
 </p>
+<p>
+  <%= link_to 'Edit', edit_post_path(@post) %> </p>
 
-<%= link_to 'Edit', edit_post_path(@post) %> |
+<div id="comments">
+  <% render 'comments/form', comment: @comment %>
+</div>
+
+<div id="comments">
+
+  <%= render 'comments/form', comment: @comment %>
+
+  <% @post.comments.each do |comment| %>
+    <p>
+      <%= comment.author %> said...<br />
+      <%= comment.comment_entry %>
+    </p>
+  <% end %>
+
+</div>
+
+<p>
 <%= link_to 'Back', posts_path %>
+</p>

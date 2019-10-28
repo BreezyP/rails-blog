@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68613a38-c964-43c6-be77-fe03c8c86b16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,13 +11,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SbIIW70iLJkRZbK74iP6tDn4hv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../poke-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.settings.patched" value="true" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
@@ -35,7 +34,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: blog">
+  <component name="RunManager">
     <configuration name="Development: blog" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="blog" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -148,6 +147,7 @@
       <workItem from="1571825996077" duration="6167000" />
       <workItem from="1571833497982" duration="9000" />
       <workItem from="1571908008385" duration="7464000" />
+      <workItem from="1572252838213" duration="4449000" />
     </task>
     <servers />
   </component>

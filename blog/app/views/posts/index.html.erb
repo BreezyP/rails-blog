@@ -16,6 +16,7 @@
     <% @posts.each do |post| %>
       <tr>
         <td><%= post.title %></td>
+        <td><%= link_to post.user.username, user_posts_path(id: post.user_id) %>
         <td><%= post.user.email %></td>
         <td><%= post.blog_entry %></td>
         <td><%= link_to 'Show', post %></td>
@@ -29,3 +30,7 @@
 <br>
 
 <%= link_to 'New Post', new_post_path %>
+
+<!-- the rest of the file is up here -->
+
+<%= paginate @posts %>
